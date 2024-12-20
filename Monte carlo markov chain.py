@@ -90,7 +90,7 @@ y = np.array(y)
 for i in range(n):
   plt.plot(x[i], y[i])
   plt.ylim(0,1)
-  plt.title('S0tate ' + str(i + 1))
+  plt.title('State ' + str(i + 1))
   plt.xlabel('Number of transitions')
   plt.ylabel("Probability of being in state " + str(i+1))
   plt.show()
